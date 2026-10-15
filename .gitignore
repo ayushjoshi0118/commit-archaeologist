@@ -1,0 +1,29 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Node dependencies
+node_modules/
+dist/
+.vite/
+
+# Tauri build artifacts
+src-tauri/target/
+
+# Local databases & artifacts
+*.db
+*.db-journal
+*.db-wal
+.archeologist/
+scratch/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
